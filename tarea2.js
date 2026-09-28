@@ -8,10 +8,12 @@ console.log("Edad:", edad);
 console.log("Ciudad:", ciudad); 
 
 edad = 25; 
-const profesion = programador; 
+const profesion = "programador"; 
 console.log("Profesión:", profesion); 
+// a programdor le faltan las comillas es un string
 
-let salario = "850000"; 
+let salario = 850000; 
+// 850000 no debe ir entre comillas porque es un number
 
 console.log("Salario:", salario); 
 console.log("Tipo de nombre:", typeof nombre); 
@@ -27,8 +29,9 @@ console.log("Multiplicación:", numero1 * numero2);
 console.log("División:", numero1 / numero2); 
 
 
-const apellido = "Gomez"; apellido = "Pérez"; 
+let apellido = "Gomez"; apellido = "Pérez"; 
 console.log("Apellido:", apellido); 
+//hay que cambiar const por let ya que debe ser variable
 
 let cantidadProductos; 
 console.log("Cantidad:", cantidadProductos); 
